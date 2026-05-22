@@ -70,6 +70,7 @@ A typical agent may immediately guess the user's intent and start editing code, 
 ## How it works
 
 ```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 8, "rankSpacing": 5 ,"nodeSpacing": 40, "rankSpacing": 25, "curve": "linear"}, "themeVariables": {"fontSize": "13px"}} }%%
 flowchart TD
     A([User request]) --> B{Is the information sufficient?}
 

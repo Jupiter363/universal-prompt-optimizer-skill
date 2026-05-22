@@ -16,8 +16,6 @@
 
 适用于 Claude Code / Codex / Cursor / Copilot 等支持 Agent Skills / `SKILL.md` 工作流的 AI Coding Agent。
 
-</div>
-
 ---
 
 ## 它解决了什么痛点？
@@ -70,6 +68,7 @@
 ## 工作流程
 
 ```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 40, "rankSpacing": 25, "curve": "linear"}, "themeVariables": {"fontSize": "13px"}} }%%
 flowchart TD
     A([用户输入]) --> B{信息是否足够？}
 
