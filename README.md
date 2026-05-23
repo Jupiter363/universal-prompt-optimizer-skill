@@ -16,6 +16,8 @@
 
 适用于 Claude Code / Codex / Cursor / Copilot 等支持 Agent Skills / `SKILL.md` 工作流的 AI Coding Agent。
 
+</div>
+
 ---
 
 ## 它解决了什么痛点？
@@ -341,33 +343,6 @@ universal-prompt-optimizer/
 ### 能不能接入小模型自动改写？
 
 当前基础版不接入小模型，保证零配置和可移植性。后续可以扩展为 `Hook + 小模型` 模式，让用户自行提供模型 API，用于更复杂的自动改写、评分和多版本 Prompt 生成。
-
----
-
-## Roadmap
-
-- [ ] 增加更多 Before / After 示例
-- [ ] 提供英文版 README
-- [ ] 增加 `examples/` 示例库，覆盖 Debug、重构、测试、文档、研究等场景
-- [ ] 提供可选的 Hook 扩展方案
-- [ ] 支持小模型评分与多版本 Prompt 自动改写
-- [ ] 增加 Skill 自检清单，帮助用户判断触发条件是否过宽或过窄
-
----
-
-## GitHub 仓库建议
-
-### Repository description
-
-```text
-Turn vague AI Agent requests into clarified, structured, executable prompts — zero API key, pure SKILL.md workflow.
-```
-
-### Topics
-
-```text
-prompt-engineering, claude-code, agent-skills, skill-md, ai-agent, codex, cursor, prompt-optimizer, developer-tools
-```
 
 ---
 
