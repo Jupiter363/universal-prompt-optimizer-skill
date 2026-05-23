@@ -346,33 +346,6 @@ The base version does not use a small model, which keeps it zero-config and port
 
 ---
 
-## Roadmap
-
-- [ ] Add more Before / After examples
-- [ ] Add an `examples/` library covering Debug, Refactor, Testing, Documentation, Research, and Planning
-- [ ] Provide an optional Hook extension design
-- [ ] Support small-model scoring and multi-version prompt rewriting
-- [ ] Add a skill self-check checklist to help users tune trigger conditions
-- [ ] Add multilingual README versions
-
----
-
-## GitHub repository suggestions
-
-### Repository description
-
-```text
-Turn vague AI Agent requests into clarified, structured, executable prompts — zero API key, pure SKILL.md workflow.
-```
-
-### Topics
-
-```text
-prompt-engineering, claude-code, agent-skills, skill-md, ai-agent, codex, cursor, prompt-optimizer, developer-tools
-```
-
----
-
 ## Contributing
 
 Issues and pull requests are welcome, especially for:
